@@ -1,7 +1,4 @@
 
-@import url('responsiveness.css');
-
-
 
 /* viso puslapio nustatymai */
 body {
@@ -15,11 +12,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h1 {
-    font-weight: 100;
-    font-size: xx-large;
-    text-decoration: none;
-}
 
 /* Konteineris Homepage daliai */
 .container {
@@ -35,7 +27,20 @@ h1 {
     align-items: center;
 }
 
-/* Konteineris kitiems puslapiio tabams */
+h1 {
+    font-weight: 100;
+    font-size: 3rem;
+    text-decoration: none;
+    margin: 10px;
+}
+
+h4 {
+    font-weight: 100;
+    margin: 40px;
+}
+
+
+/* Konteineris puslapiio tabams */
 .smallContainer {
     width: 80%;
     background-color: rgb(20, 18, 18);
@@ -43,6 +48,12 @@ h1 {
     text-align: left;
     padding: 40px ;
     margin: 40px auto;
+}
+
+
+h2{
+    display: inline-block;
+    border-bottom: 3px solid white;
 }
 
 
@@ -104,7 +115,3 @@ img{
     object-fit: cover;
 }
 
-h2{
-    display: inline-block;
-    border-bottom: 3px solid white;
-}
