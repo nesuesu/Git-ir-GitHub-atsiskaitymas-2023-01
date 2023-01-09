@@ -1,17 +1,28 @@
 
 @import url('responsiveness.css');
 
-
-
-
 body {
+    background-color: aquamarine;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
     background-image: url("/images/metaverse.jpg");
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     background-color: #cccccc;
     color: white;
     text-align: center;
-    vertical-align: center;
+}
+
+.center{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 a{
@@ -19,10 +30,16 @@ a{
     color: white;
 }
 
+.buttons{
+    display: flex;
+}
+
 button{
-    width: 100%;
+    
     opacity: 0.5;
 }
+
+
 
 
 #intro{

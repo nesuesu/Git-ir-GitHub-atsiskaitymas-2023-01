@@ -1,9 +1,9 @@
 
 
-@media screen and (min-width: 792px) {
+@media screen and (max-width: 800px) {
 
     body {
-        background-color: aquamarine;
+        background-color: rgb(176, 15, 250);
     }
     
     button {
