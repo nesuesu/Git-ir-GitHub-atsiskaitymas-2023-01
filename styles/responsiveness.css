@@ -1,0 +1,12 @@
+
+
+@media screen and (min-width: 792px) {
+
+    body {
+        background-color: aquamarine;
+    }
+    
+    button {
+        width: 100px;
+    }
+}
