@@ -1,6 +1,8 @@
 
 @import url('responsiveness.css');
 
+
+
 body {
     background-color: aquamarine;
 }
@@ -32,10 +34,12 @@ a{
 
 .buttons{
     display: flex;
+    flex-direction: column;
+    width: 100%;
 }
 
 button{
-    
+    width: 100%;
     opacity: 0.5;
 }
 
