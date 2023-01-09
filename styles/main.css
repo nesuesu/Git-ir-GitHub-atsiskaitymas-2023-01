@@ -4,22 +4,20 @@
 
 
 body {
+    height: 800px;
     background-color: aquamarine;
-}
-
-.container {
-    height: 100%;
-    width: 100%;
-    background-image: url("/images/metaverse.jpg");
+    background-image: url("/images/bg.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-color: #cccccc;
-    color: white;
-    text-align: center;
 }
 
-.center{
+.container {
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-align: center;
+
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -27,10 +25,29 @@ body {
     align-items: center;
 }
 
+/* .center{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+.smallContainer {
+    width: 80%;
+    background-color: rgb(20, 18, 18);
+    color: white;
+    text-align: left;
+    padding: 40px ;
+    margin: 40px auto;
+}
+
+
 a{
     text-decoration: underline dotted;
     color: white;
 }
+
 
 .buttons{
     display: flex;
@@ -40,7 +57,13 @@ a{
 
 button{
     width: 100%;
+    height: 50px;
     opacity: 0.5;
+}
+
+button:hover {
+    background-color: grey;
+    cursor: pointer;
 }
 
 
@@ -58,4 +81,28 @@ button{
 }
 #contact{
     display: none;
+}
+
+
+
+.show{
+    display: block;
+}
+
+
+.close{
+    font-size: 3rem;
+    font-weight: bolder;
+    float: right;
+}
+
+img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+h1{
+    display: inline-block;
+    border-bottom: 3px solid white;
 }
