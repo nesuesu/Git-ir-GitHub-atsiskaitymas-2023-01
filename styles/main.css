@@ -1,0 +1,29 @@
+
+
+body {
+    background-image: url("/images/metaverse.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #cccccc;
+    color: white;
+    text-align: center;
+}
+
+a{
+    text-decoration: underline dotted;
+    color: white;
+}
+
+#intro{
+    display: none;
+}
+
+#work{
+    display: none;
+}
+#about{
+    display: none;
+}
+#contact{
+    display: none;
+}
