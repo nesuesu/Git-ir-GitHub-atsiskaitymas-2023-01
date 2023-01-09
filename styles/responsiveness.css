@@ -3,12 +3,10 @@
 
 @media screen and (min-width: 800px) {
 
-    body {
-        background-color: rgb(176, 15, 250);
-    }
-    
+   
     .buttons{
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: center;
     }
 
     button {
