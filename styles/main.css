@@ -3,6 +3,7 @@
 
 
 
+/* viso puslapio nustatymai */
 body {
     height: 800px;
     background-color: aquamarine;
@@ -10,8 +11,17 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+h1 {
+    font-weight: 100;
+    font-size: xx-large;
+    text-decoration: none;
+}
+
+/* Konteineris Homepage daliai */
 .container {
     width: 100%;
     height: 100%;
@@ -25,14 +35,7 @@ body {
     align-items: center;
 }
 
-/* .center{
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-} */
-
+/* Konteineris kitiems puslapiio tabams */
 .smallContainer {
     width: 80%;
     background-color: rgb(20, 18, 18);
@@ -43,12 +46,17 @@ body {
 }
 
 
+/* Nuorodos */
 a{
     text-decoration: underline dotted;
     color: white;
 }
 
+a:hover{
+    color: gray;
+}
 
+/* Mygtukai */
 .buttons{
     display: flex;
     flex-direction: column;
@@ -68,21 +76,9 @@ button:hover {
 
 
 
-
-#intro{
+#intro, #work, #about, #contact{
     display: none;
 }
-
-#work{
-    display: none;
-}
-#about{
-    display: none;
-}
-#contact{
-    display: none;
-}
-
 
 
 .show{
@@ -96,13 +92,19 @@ button:hover {
     float: right;
 }
 
+.close:hover{
+    transition: all 0.3s ease-in-out 0s;
+    transform: rotate(90deg);
+    cursor: pointer;
+}
+
 img{
     width: 100%;
     height: 300px;
     object-fit: cover;
 }
 
-h1{
+h2{
     display: inline-block;
     border-bottom: 3px solid white;
 }
